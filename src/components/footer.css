@@ -1,0 +1,35 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding: 4rem;
+    justify-self: center;
+}
+
+.footer>img{
+    width: 1.5rem;
+}
+
+.Logo-f{
+    justify-self: center;
+    height: 1rem;
+    position: relative;
+}
+.shree{
+    position: relative;
+    display: flex;
+    margin-top: 10rem;
+    gap: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(219, 26, 26);
+}
+
+@media  screen and (max-width:768px){
+    /* .footer{
+        padding: 5rem;
+    } */
+     .footer{
+        position: none;
+     }
+}

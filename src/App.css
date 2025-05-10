@@ -1,0 +1,34 @@
+*{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.stroke-text{
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  font-weight: 5rem;
+}
+
+.btns{
+  background-color: white;
+  padding: 0.5rem;
+  font-weight: bold;
+  border: 4px solid transparent;
+  transition: 300ms all;
+}
+
+.btns:hover{
+  cursor: pointer;
+}
+.blur{
+  background: rgba(253, 120, 43,0.69);
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(140px);
+  z-index: -9;
+}
+@media  screen and (max-width:768px){
+  .blur{
+    width: 0rem;
+  }
+}
